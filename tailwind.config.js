@@ -11,14 +11,16 @@ export const theme = {
       'color-gradient': "url('/img/gradients.png')",
       'desktop-bg': "url('/img/hero-media-desktop.png')",
       'wave-mobile': "url('/img/wave-green-mobile.png')",
-      'wave-desktop': "url('/img/wave-green-desktop.png')"
+      'wave-desktop': "url('/img/wave-green-desktop.png')",
+      'circle-pattern': "url('/img/circle.png')"
     },
     backgroundColor: {
       'nav-bg': 'rgba(17,69,59,.5)',
       'dark-green': '#11453b',
       'light-grey': '#hsla(0, 0%, 85%, 1)',
       'card-green':
-        'radial-gradient(50% 50.00% at 50% 50.00%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.03) 100%)'
+        'radial-gradient(50% 50.00% at 50% 50.00%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.03) 100%)',
+      'pink-peach': '#ffe9e7'
     },
     boxShadow: {
       'register-sh': '0 8px 16px rgba(17,69,59,.2)',
