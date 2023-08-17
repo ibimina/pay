@@ -94,41 +94,169 @@ const toggleMenuText = computed(() => {
   </main>
   <section class="py-20 bg-light-grey bg-wave-mobile bg-no-repeat bg-cover lg:bg-wave-desktop px-3">
     <div class="mb-8 text-center">
-      <h2 class="font-bold mb-2 font-serif text-dark-green text-3xl">For Individuals and Businesses</h2>
+      <h2 class="font-bold mb-2 font-serif text-dark-green text-3xl">
+        For Individuals and Businesses
+      </h2>
       <p>Join 200+ businesses using Eazipay's easy solution.</p>
     </div>
     <div class="flex flex-col lg:flex-row my-8 gap-4 lg:gap-0 justify-center text-white relative">
       <article class="p-8 bg-dark-green lg:shadow-card-sh rounded-2xl text-left">
         <h3 class="font-bold font-serif mb-4 text-lg">Tamper-proof Payroll for Life</h3>
-        <p class=" font-normal mb-3 text-base">Your staff payroll history is kept in one place forever.</p>
-        <p class=" font-normal mb-3 text-base">No more excel sheet or manual records.</p>
-        <p class=" font-normal text-base">Download your payroll history anytime you need it.</p>
+        <p class="font-normal mb-3 text-base">
+          Your staff payroll history is kept in one place forever.
+        </p>
+        <p class="font-normal mb-3 text-base">No more excel sheet or manual records.</p>
+        <p class="font-normal text-base">Download your payroll history anytime you need it.</p>
       </article>
-      <article class="p-8 bg-dark-green lg:shadow-card-sh rounded-2xl text-left lg:absolute lg:top-0 lg:bottom-0 lg:left-1/4 lg:w-6/12">
+      <article
+        class="p-8 bg-dark-green lg:shadow-card-sh rounded-2xl text-left lg:absolute lg:top-0 lg:bottom-0 lg:left-1/4 lg:w-6/12"
+      >
         <h3 class="font-bold font-serif mb-4 text-lg">All Payroll, Anytime Anywhere</h3>
-        <p class=" font-normal mb-3 text-base">Wherever you are, Eazipay has got you covered on ALL your Payroll tasks.</p>
-        <p class=" font-normal  text-base">
+        <p class="font-normal mb-3 text-base">
+          Wherever you are, Eazipay has got you covered on ALL your Payroll tasks.
+        </p>
+        <p class="font-normal text-base">
           Whether it is Taxes, Pension insurances HMOs, trustfunds, Eazipay handle all your
           compliances in one place and easily, in seconds!
         </p>
       </article>
-      <article class="p-8 bg-dark-green lg:shadow-card-sh rounded-2xl text-left lg:relative lg:left-0 ">
+      <article
+        class="p-8 bg-dark-green lg:shadow-card-sh rounded-2xl text-left lg:relative lg:left-0"
+      >
         <h3 class="font-bold font-serif mb-4 text-lg">Payroll in Seconds</h3>
-        <p class=" font-normal text-base mb-3">Never again will you spend more than 2 minutes on payroll.</p>
-        <p class=" font-normal text-base mb-3">Just click on your staff and bulk-pay them at once.</p>
-        <p class=" font-normal text-base ">Payment is done permanently.</p>
+        <p class="font-normal text-base mb-3">
+          Never again will you spend more than 2 minutes on payroll.
+        </p>
+        <p class="font-normal text-base mb-3">
+          Just click on your staff and bulk-pay them at once.
+        </p>
+        <p class="font-normal text-base">Payment is done permanently.</p>
       </article>
     </div>
-    <p class="text-center max-w-lg mx-auto">We are happy to answer your queries. Please, reach us at <span class="text-accent-red">hello@myeazipay.com</span> and expect our response shortly after.</p>
+    <p class="text-center max-w-lg mx-auto">
+      We are happy to answer your queries. Please, reach us at
+      <span class="text-accent-red">hello@myeazipay.com</span> and expect our response shortly
+      after.
+    </p>
   </section>
-  <section>
-    <div>
-  <h3>How Eazipay Works</h3>
-  <p>Get started in 3 simple steps.</p>
+  <section class="max-w-4xl mx-auto px-2 py-20">
+    <div class="text-center mb-6">
+      <h3 class="font-bold mb-2 font-serif text-dark-green text-3xl">How Eazipay Works</h3>
+      <p>Get started in 3 simple steps.</p>
     </div>
-  <div>
-    <div></div>
-    <div></div>
-  </div>
+    <div class="flex flex-col lg:flex-row lg:justify-between">
+      <div class="relative flex items-center justify-center">
+        <div class="hidden lg:block absolute z-0 border border-dark-green circle">
+          <div class="hidden lightgreen">
+            <div class="hidden bg-dark-green darkgreen"></div>
+          </div>
+        </div>
+        <div class="relative z-20 w-80">
+          <img class="radius" src="/img/onboarding.gif" alt="onbaording image" />
+        </div>
+      </div>
+      <div class="my-8">
+        <div class="relative mb-6 lg:mb-14 py-4 px-2 lg:pl-14">
+          <p class="mb-6 py-3 px-5 font-bold rounded-xl bg-dark-green text-white inline-block">1</p>
+          <div>
+            <p class="mb-2">Create your free account</p>
+            <p>Click here t set up your Eazipay account</p>
+          </div>
+          <img class="hidden lg:block absolute top-7 left-0" src="/img/stepone.png" alt="" />
+        </div>
+        <div class="relative mb-6 lg:mb-20 pb-4 px-2 lg:pl-14">
+          <p
+            class="mb-6 py-3 z-50 px-5 font-bold rounded-xl bg-dark-green text-white max-w-max relative"
+          >
+            2
+          </p>
+          <div>
+            <p class="mb-2">Create your free account</p>
+            <p>Click here t set up your Eazipay account</p>
+          </div>
+          <img
+            class="hidden lg:block absolute top-5 right-0 lg:-right-16"
+            src="/img/nextstep.png"
+            alt=""
+          />
+        </div>
+        <div class="relative mb-12 px-2 lg:pl-14">
+          <p class="mb-6 py-3 mr-4 px-5 font-bold rounded-xl bg-dark-green text-white max-w-max">
+            3
+          </p>
+          <div>
+            <p class="mb-2">Create your free account</p>
+            <p>Click here t set up your Eazipay account</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-pink-peach bg-circle-pattern bg-no-repeat bg-cover px-4">
+    <div class="lg:ml-10">
+      <img  src="/img/red-dot.png" alt="red dots" />
+    </div>
+    <div class="lg:flex lg:items-center lg:justify-center container">
+      <div class="text-center mb-6 lg:text-left">
+        <h4 class="font-bold mb-4 text-3xl">
+          Free forever for you
+          <span class="font-bold mb-4 text-3xl block md:inline-block text-accent-red">
+            salary payments</span
+          >
+        </h4>
+
+        <div class="mt-4">
+          <p class="mb-4">Subscribe to the Eazilife today</p>
+          <div class="flex gap-4 items-center">
+            <img
+              class="h-16 shadow-app-sh rounded-lg"
+              src="/img/google-play.png"
+              alt="google play"
+            />
+            <img class="h-16 shadow-app-sh rounded-lg" src="/img/apple-store.png" alt="app store" />
+          </div>
+        </div>
+      </div>
+      <img class="mx-auto imgheight" src="/img/free-forever.png" alt="" />
+    </div>
   </section>
 </template>
+
+<style scoped>
+@media (min-width: 60rem) {
+  .circle {
+    background: #f0f7eb;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .lightgreen {
+    background: #d9ebcd;
+    width: 85%;
+    height: 90%;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .darkgreen {
+    background-color: #11453b;
+    border-radius: 100%;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    place-items: center;
+  }
+}
+.radius {
+  border-radius: 64px;
+}
+.imgheight {
+  max-height: 500px;
+}
+.container{
+  max-width: 1000px;
+  margin: auto;
+}
+</style>
