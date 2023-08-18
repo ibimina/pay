@@ -42,35 +42,45 @@
                 </button>
               </div>
             </div>
-             <div class="lg:hidden mb-4">
-            <p class="my-3">QUICK STATS</p>
-            <div class="grid grid-cols-2 gap-2">
-              <div class="bg-gray-200 rounded-lg p-2">
-                <p>Total Payroll</p>
-                <p>2,067,789,345.05</p>
-              </div>
-              <div class="bg-gray-200 rounded-lg p-2">
-                <p>Total Payroll</p>
-                <p>2,067,789,345.05</p>
+            <div class="lg:hidden mb-4">
+              <p class="my-3">QUICK STATS</p>
+              <div class="grid grid-cols-2 gap-2">
+                <div class="bg-gray-200 rounded-lg p-2">
+                  <p>Total Payroll</p>
+                  <p>2,067,789,345.05</p>
+                </div>
+                <div class="bg-gray-200 rounded-lg p-2">
+                  <p>Total Payroll</p>
+                  <p>2,067,789,345.05</p>
+                </div>
               </div>
             </div>
-          </div>
-            <div class="row-start-2 mb-8">
+            <div class="row-start-2 mb-8 lg:mb-0">
               <p class="lg:hidden mb-3">QUICK ACTIONS</p>
-              <div class="grid grid-cols-3 lg:grid-cols-4 lg:gap-2 border rounded-lg p-4   lg:border-0">
-                <div class="grid items-center justify-center mb-6 lg:py-3 lg:bg-white lg:shadow-icon-sh lg:rounded-xl">
+              <div
+                class="grid grid-cols-3 lg:grid-cols-4 lg:gap-2 border rounded-lg p-4 lg:border-0"
+              >
+                <div
+                  class="grid items-center justify-center mb-6 lg:py-3 lg:bg-white lg:shadow-icon-sh lg:rounded-xl"
+                >
                   <img class="mx-auto mb-4" src="/img/salary.png" alt="naria note" />
                   <p>Pay Salaries</p>
                 </div>
-                <div class="grid items-center justify-center mb-6 lg:py-3 lg:bg-white lg:shadow-icon-sh lg:rounded-xl">
+                <div
+                  class="grid items-center justify-center mb-6 lg:py-3 lg:bg-white lg:shadow-icon-sh lg:rounded-xl"
+                >
                   <img class="mx-auto mb-4" src="/img/red-user.png" alt="naria note" />
                   <p>Add Employee</p>
                 </div>
-                <div class="grid items-center justify-center mb-6 lg:py-3 lg:bg-white lg:shadow-icon-sh lg:rounded-xl">
+                <div
+                  class="grid items-center justify-center mb-6 lg:py-3 lg:bg-white lg:shadow-icon-sh lg:rounded-xl"
+                >
                   <img class="mx-auto mb-4" src="/img/sendmoney.png" alt="send money" />
                   <p>Send Payslips</p>
                 </div>
-                <div class="grid items-center justify-center mb-6 lg:py-3 lg:bg-white lg:shadow-icon-sh lg:rounded-xl">
+                <div
+                  class="grid items-center justify-center mb-6 lg:py-3 lg:bg-white lg:shadow-icon-sh lg:rounded-xl"
+                >
                   <img class="mx-auto mb-4" src="/img/edit.png" alt="naria note" />
                   <p>Edit Salaries</p>
                 </div>
@@ -90,35 +100,74 @@
                   <img class="mx-auto mb-4" src="/img/data.png" alt="naria note" />
                   <p>Data</p>
                 </div>
-                <div class=" grid items-center justify-center mb-6 lg:hidden lg:bg-white lg:py-4 px-2 lg:rounded-xl">
+                <div
+                  class="grid items-center justify-center mb-6 lg:hidden lg:bg-white lg:py-4 px-2 lg:rounded-xl"
+                >
                   <img class="mx-auto mb-4" src="/img/electric.png" alt="naria note" />
                   <p>Electricity</p>
                 </div>
               </div>
             </div>
-          </div>       
-          <img class="hidden  h-60 lg:block" src="/img/payrollcal.png" alt="calendar" />
+          </div>
+          <img class="hidden h-60 lg:block" src="/img/payrollcal.png" alt="calendar" />
         </div>
+        <img class="hidden lg:block" src="/img/graph.png" alt="" />
+        <section class="mb-24 lg:mb-0">
+          <h3 class="mb-3">Recent Activities</h3>
+          <div class="mb-4 flex">
+            <input class="w-11/12 gap-2" type="text" name="" id="" />
+            <input type="submit" value="filter" />
+          </div>
+          <div>
+            <h4 class="mb-6">Wednesday, November 09, 2022</h4>
+            <div class="flex justify-between bg-white p-4 rounded-lg">
+              <div>
+                <p class="mb-3">PAYROLL</p>
+                <div class="flex items-center gap-2">
+                  <span class="p-4 rounded-full text-center bg-green-600 text-white">BM</span>
+                  <p>Badmus Kemis</p>
+                </div>
+              </div>
+
+              <div>
+                <p>ACTIVITY</p>
+                <p>Paid November</p>
+              </div>
+              <div>
+                <p>EMPLOYEE</p>
+                <p>52</p>
+              </div>
+              <div>
+                <p>TIME</p>
+                <p>16:15</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
       <ul
         class="px-2 py-6 bg-white fixed right-0 bottom-0 w-full flex items-center justify-between lg:hidden"
       >
         <li>
-          <img class="mx-auto" src="/img/home.png" alt="home">
+          <img class="mx-auto" src="/img/home.png" alt="home" />
           <p>Home</p>
         </li>
         <li>
-           <img class="mx-auto" src="/img/user-plus.png" alt="home">
-          <p>Employee</p></li>
+          <img class="mx-auto" src="/img/user-plus.png" alt="home" />
+          <p>Employee</p>
+        </li>
         <li>
-            <img class="mx-auto" src="/img/payroll.png" alt="home">
-          <p>Payroll</p></li>
+          <img class="mx-auto" src="/img/payroll.png" alt="home" />
+          <p>Payroll</p>
+        </li>
         <li>
-            <img class="mx-auto" src="/img/loangrey.png" alt="home">
-          <p>Loan</p></li>
+          <img class="mx-auto" src="/img/loangrey.png" alt="home" />
+          <p>Loan</p>
+        </li>
         <li>
-           <img src="/img/more.png" alt="home">
-          <p>More</p></li>
+          <img src="/img/more.png" alt="home" />
+          <p>More</p>
+        </li>
       </ul>
     </main>
     <aside
