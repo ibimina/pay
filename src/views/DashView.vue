@@ -171,14 +171,19 @@
       </ul>
     </main>
     <aside
-      class="hidden lg:block lg:fixed top-0 left-0 bottom-0 w-3/12 bg-purple-600 overflow-y-scroll"
+      class="hidden lg:block lg:fixed top-0 left-0 bottom-0 w-3/12 bg-white overflow-y-scroll"
     >
+    <img src="" alt="logo">
       <ul>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
+        <li><p>Dashboard</p></li>
+        <li><p>Wallet</p></li>
+        <li><p>Employee Management</p></li>
+        <li><p>Payroll</p></li>
+        <li><p> Compliance</p></li>
+        <li><p>Quick Loan</p></li>
+        <li><p>Book Keeping</p></li>
+        <li><p>Support</p></li>
+        <li><p>Settings</p></li>
       </ul>
     </aside>
   </div>
