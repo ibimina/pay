@@ -13,7 +13,7 @@ export const theme = {
       'wave-mobile': "url('/img/wave-green-mobile.png')",
       'wave-desktop': "url('/img/wave-green-desktop.png')",
       'circle-pattern': "url('/img/circle.png')",
-      'contact-pattern':"url('/img/contactpattern.png')"
+      'contact-pattern': "url('/img/contactpattern.png')"
     },
     backgroundColor: {
       'nav-bg': 'rgba(17,69,59,.5)',
@@ -21,13 +21,16 @@ export const theme = {
       'light-grey': '#hsla(0, 0%, 85%, 1)',
       'card-green':
         'radial-gradient(50% 50.00% at 50% 50.00%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.03) 100%)',
-      'pink-peach': '#ffe9e7'
+      'pink-peach': '#ffe9e7',
+      'light-green': '#D9EBCD',
+      'back-slime': '#F9FAFC'
     },
     boxShadow: {
       'register-sh': '0 8px 16px rgba(17,69,59,.2)',
       'app-sh': '0 20px 48px 0 hsla(0,0%,66.7%,.29)',
       'card-sh':
-        '-11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20)'
+        '-11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20)',
+      'icon-sh': '0px 9px 18px 0px rgba(170, 170, 170, 0.15)'
     },
     textColor: {
       'semi-darkgrey': '#515251',
