@@ -13,7 +13,8 @@ export const theme = {
       'wave-mobile': "url('/img/wave-green-mobile.png')",
       'wave-desktop': "url('/img/wave-green-desktop.png')",
       'circle-pattern': "url('/img/circle.png')",
-      'contact-pattern': "url('/img/contactpattern.png')"
+      'contact-pattern': "url('/img/contactpattern.png')",
+      'logo-pattern':' url("/img/Vector.png")',
     },
     backgroundColor: {
       'nav-bg': 'rgba(17,69,59,.5)',
@@ -23,7 +24,8 @@ export const theme = {
         'radial-gradient(50% 50.00% at 50% 50.00%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.03) 100%)',
       'pink-peach': '#ffe9e7',
       'light-green': '#D9EBCD',
-      'back-slime': '#F9FAFC'
+      'back-slime': '#F9FAFC',
+      'green-slime': '#175B4E',
     },
     boxShadow: {
       'register-sh': '0 8px 16px rgba(17,69,59,.2)',

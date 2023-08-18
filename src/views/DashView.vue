@@ -170,20 +170,23 @@
         </li>
       </ul>
     </main>
-    <aside
-      class="hidden lg:block lg:fixed top-0 left-0 bottom-0 w-3/12 bg-white overflow-y-scroll"
-    >
-    <img class="mb-6" src="/img/logo-dark.png" alt="logo">
-      <ul>
-        <li class="mb-3 px-3"><p>Dashboard</p></li>
-        <li class="mb-3 px-3"><p>Wallet</p></li>
-        <li class="mb-3 px-3"><p>Employee Management</p></li>
-        <li class="mb-3 px-3"><p>Payroll</p></li>
-        <li class="mb-3 px-3"><p> Compliance</p></li>
-        <li class="mb-3 px-3"><p>Quick Loan</p></li>
-        <li class="mb-3 px-3"><p>Book Keeping</p></li>
-        <li class="mb-3 px-3"><p>Support</p></li>
-        <li class="mb-3 px-3"><p>Settings</p></li>
+    <aside class="hidden lg:block lg:fixed top-0 left-0 bottom-0 w-3/12 bg-white overflow-y-scroll">
+      <div class="">
+        <div class="flex items-center justify-center bg-logo-pattern bg-cover bg-no-repeat h-48">
+          <img class="mb-6" src="/img/logo-light.png" alt="logo" />
+        </div>
+      </div>
+
+      <ul class="mt-6">
+        <li class="mb-6 border-b py-5 px-6"><p>Dashboard</p></li>
+        <li class="mb-6 border-b py-5 px-6"><p>Wallet</p></li>
+        <li class="mb-6 border-b py-5 px-6"><p>Employee Management</p></li>
+        <li class="mb-6 border-b py-5 px-6"><p>Payroll</p></li>
+        <li class="mb-6 border-b py-5 px-6"><p>Compliance</p></li>
+        <li class="mb-6 border-b py-5 px-6"><p>Quick Loan</p></li>
+        <li class="mb-6 border-b py-5 px-6"><p>Book Keeping</p></li>
+        <li class="mb-6 border-b py-5 px-6"><p>Support</p></li>
+        <li class="mb-6 border-b py-5 px-6"><p>Settings</p></li>
       </ul>
     </aside>
   </div>
