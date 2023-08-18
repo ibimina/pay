@@ -46,7 +46,8 @@ const toggleMenuText = computed(() => {
             <li
               class="font-bold mb-8 lg:mb-0 lg:font-normal lg:border-dark-green border lg:py-2 lg:px-8 rounded-3xl"
             >
-              Login in
+            <RouterLink to="/dashboard">  Login in</RouterLink>
+             
             </li>
             <li
               class="text-white bg-dark-green text-center p-2 rounded-3xl font-bold lg:font-normal lg:py-2 lg:px-8 shadow-register-sh"
@@ -194,7 +195,7 @@ const toggleMenuText = computed(() => {
   </section>
   <section class="bg-pink-peach bg-circle-pattern bg-no-repeat bg-cover px-4">
     <div class="lg:ml-10">
-      <img  src="/img/red-dot.png" alt="red dots" />
+      <img src="/img/red-dot.png" alt="red dots" />
     </div>
     <div class="lg:flex lg:items-center lg:justify-center container">
       <div class="text-center mb-6 lg:text-left">
@@ -220,6 +221,178 @@ const toggleMenuText = computed(() => {
       <img class="mx-auto imgheight" src="/img/free-forever.png" alt="" />
     </div>
   </section>
+  <section class="relative bg-contact-pattern bg-no-repeat bg-cover py-12 px-4">
+    <div class="hidden lg:block absolute top-2 left-0">
+      <img src="/img/greendot.png" alt="red dots" />
+    </div>
+    <div class="lg:flex gap-4 lg:items-center lg:justify-center container">
+      <div class="mb-3 text-center lg:text-left">
+        <h5 class="mb-2 font-bold font-serif text-dark-green text-3xl">
+          Get an Exclusive Demo of Eazipay
+        </h5>
+        <p>
+          Our greatest priority is to put you and your business first. Let’s show you how we can
+          help.
+        </p>
+      </div>
+      <form class="bg-white shadow-app-sh p-4">
+        <div class="text-center mb-3">
+          <p>First things first</p>
+          <p>We want to serve you better. Tell us a bit about yourself or company</p>
+        </div>
+
+        <div class="flex items-center justify-center gap-2 mb-6">
+          <button class="bg-dark-green text-white rounded-2xl px-3 py-1">Individual</button>
+          <button class="bg-gray-200 text-accent-grey rounded-2xl px-3 py-1">Company</button>
+        </div>
+        <input
+          type="text"
+          class="block p-2 mb-3 rounded-2xl border border-slate-300 w-full"
+          placeholder="First name"
+        />
+        <input
+          type="text"
+          class="block p-2 mb-3 rounded-2xl border border-slate-300 w-full"
+          placeholder="First name"
+        />
+        <input
+          type="text"
+          class="block p-2 mb-3 rounded-2xl border border-slate-300 w-full"
+          placeholder="First name"
+        />
+        <input
+          type="text"
+          class="block p-2 mb-3 rounded-2xl border border-slate-300 w-full"
+          placeholder="First name"
+        />
+        <input
+          type="text"
+          class="block p-2 mb-3 rounded-2xl border border-slate-300 w-full"
+          placeholder="First name"
+        />
+        <input
+          type="submit"
+          class="block p-2 mb-3 rounded-2xl border border-slate-300 w-full text-center text-white bg-dark-green"
+          value="Request demo"
+        />
+      </form>
+    </div>
+  </section>
+  <footer class="px-4 container py-12">
+    <div>
+      <div class="flex flex-col lg:flex-row-reverse lg:justify-between gap-10" >
+        <div class="lg:w-6/12 flex flex-col  justify-center gap-y-8 lg:flex-row lg:gap-10">
+          <div class="lg:w-1/4 text-center lg:text-left">
+            <h3 class="" >Products</h3>
+            <ul class="" >
+              <li ><a href="/individual" > Individual </a></li>
+              <li ><a href="/business" >Businesses</a></li>
+            </ul>
+          </div>
+          <div
+            class="lg:w-1/4 text-center lg:text-left">
+            <h3 class="" >Legal</h3>
+            <ul class="footer-list" >
+              <li >
+                <a href="/privacy-policy" >Privacy Policy</a>
+              </li>
+              <li >
+                <a href="/terms-of-use" > Terms of Use </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="lg:w-1/4 legal text-center lg:text-left">
+            <h3 class="" >Resource</h3>
+            <ul class="footer-list" >
+              <li >
+                <a href="/privacy-policy" >FAQS</a>
+              </li>
+              <li >
+                <a href="/terms-of-use" > Blogs </a>
+              </li>
+               <li >
+                <a href="/terms-of-use" >Career</a>
+              </li>
+               <li >
+                <a href="/terms-of-use" >Customer Stories</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:w-2/4 lg:block text-center lg:text-left" >
+            <h3 class="" >Contact Us</h3>
+            <ul class="grid gap-2 mb-6 footer-list" >
+              <li >
+                <a href="mailto:hi@myeazipay.com" >hi@myeazipay.com</a>
+              </li>
+              <li >
+                <a href="tel:+234 913 476 6185" >+234 913 476 6185</a>
+              </li>
+            </ul>
+            <div class="relative">
+              <form class="bg-gray-500 rounded-2xl flex max-w-md mx-auto">
+                <div class="flex-1" >
+                  <input
+                    type="text"
+                    class="w-full bg-gray-500"
+                    placeholder="Your email address"
+                    required
+                   
+                  />
+                </div>
+                <button class="flex-shrink-0 px-2 py-2 bg-transparent">
+                 <img src="/img/sendmessage.svg" alt="arrow" />
+                   </button>
+              </form>
+        
+            </div>
+          </div>
+        </div>
+        <div class="text-center lg:flex-row lg:text-left lg:w-3/12 flex-shrink-0">
+          <div class="mb-6" >
+            <img class="mx-auto" src="/img/logo-dark.png" alt="eazipay logo" />
+          </div>
+          <p class="mb-2" >Copyright © 2023 Eazipay.</p>
+          <p class="mb-6" >All rights reserved</p>
+          <div class="social-links inline-flex gap-3 justify-center" >
+            <a
+              href="https://www.instagram.com/myeazipay"
+              title="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              
+              >
+              <img src="/img/instagram.svg"/></a
+            ><a
+              href="https://twitter.com/myeazipay"
+              title="Twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              
+              > <img src="/img/twitter.svg"/></a
+            ><a
+              href="https://www.linkedin.com/company/myeazipay"
+              title="Linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              
+              > <img src="/img/linkedin.svg"/></a
+            ><a
+              href="https://web.facebook.com/myeazipay"
+              title="Facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link">
+             <img src="/img/facebook.svg"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
@@ -255,7 +428,7 @@ const toggleMenuText = computed(() => {
 .imgheight {
   max-height: 500px;
 }
-.container{
+.container {
   max-width: 1000px;
   margin: auto;
 }
