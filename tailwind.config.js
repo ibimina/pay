@@ -12,7 +12,8 @@ export const theme = {
       'desktop-bg': "url('/img/hero-media-desktop.png')",
       'wave-mobile': "url('/img/wave-green-mobile.png')",
       'wave-desktop': "url('/img/wave-green-desktop.png')",
-      'circle-pattern': "url('/img/circle.png')"
+      'circle-pattern': "url('/img/circle.png')",
+      'contact-pattern':"url('/img/contactpattern.png')"
     },
     backgroundColor: {
       'nav-bg': 'rgba(17,69,59,.5)',
