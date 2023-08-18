@@ -173,17 +173,17 @@
     <aside
       class="hidden lg:block lg:fixed top-0 left-0 bottom-0 w-3/12 bg-white overflow-y-scroll"
     >
-    <img src="" alt="logo">
+    <img class="mb-6" src="/img/logo-dark.png" alt="logo">
       <ul>
-        <li><p>Dashboard</p></li>
-        <li><p>Wallet</p></li>
-        <li><p>Employee Management</p></li>
-        <li><p>Payroll</p></li>
-        <li><p> Compliance</p></li>
-        <li><p>Quick Loan</p></li>
-        <li><p>Book Keeping</p></li>
-        <li><p>Support</p></li>
-        <li><p>Settings</p></li>
+        <li class="mb-3 px-3"><p>Dashboard</p></li>
+        <li class="mb-3 px-3"><p>Wallet</p></li>
+        <li class="mb-3 px-3"><p>Employee Management</p></li>
+        <li class="mb-3 px-3"><p>Payroll</p></li>
+        <li class="mb-3 px-3"><p> Compliance</p></li>
+        <li class="mb-3 px-3"><p>Quick Loan</p></li>
+        <li class="mb-3 px-3"><p>Book Keeping</p></li>
+        <li class="mb-3 px-3"><p>Support</p></li>
+        <li class="mb-3 px-3"><p>Settings</p></li>
       </ul>
     </aside>
   </div>
