@@ -111,7 +111,7 @@
           </div>
           <img class="hidden h-60 lg:block" src="/img/payrollcal.png" alt="calendar" />
         </div>
-        <img class="hidden lg:block" src="/img/graph.png" alt="" />
+        <img class="hidden lg:block" src="/img/graph.png" alt="graph" />
         <section class="mb-24 lg:mb-0">
           <h3 class="mb-3">Recent Activities</h3>
           <div class="mb-4 flex">
